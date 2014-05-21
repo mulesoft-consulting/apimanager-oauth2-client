@@ -20,4 +20,4 @@ Running
 
 mvn exec:java -Dexec.mainClass="org.mulesoft.apimanager.client.APIManagerClient" \
               -Dexec.classpathScope=runtime \
-              -Dexec.args="<APIManager User Principal> <APIManager User Credentials>"
+              -Dexec.args="|APIManager User Principal| |APIManager User Credentials|"
