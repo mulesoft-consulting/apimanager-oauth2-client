@@ -1,0 +1,8 @@
+#
+*.class
+bin
+target
+.studio
+.settings
+.DS_Store
+#
