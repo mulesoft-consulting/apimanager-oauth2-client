@@ -13,7 +13,7 @@ For details on the API Manager REST API, please see the API Manager Console, ref
  
 Please see the following for additional reference:
 * OAUTH2 [http://tools.ietf.org/html/draft-ietf-oauth-v2-31]
-* API Manager REST API Console [ttps://anypoint.mulesoft.com/api-platform/api/console/#]
+* API Manager REST API Console [https://anypoint.mulesoft.com/api-platform/api/console/#]
 
 
 Requirements
