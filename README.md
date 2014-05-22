@@ -4,10 +4,16 @@ apimanager-oauth2-client
 JAVA Client Example of Accessing APIManager via simple HTTP Client
 
 A simple APIManagerClient provides simple demonstration of Authenticating and
-Accessing protected API Manager Resources using Java and Apache HttpClient constructs.
- 
+accessing protected API Manager Resources using Java and Apache HttpClient constructs.
 
-Please see [http://tools.ietf.org/html/draft-ietf-oauth-v2-31] for details on OAUTH V2.
+The intent is to provide base rudiments for these to be applied and evolved for expanded Use Cases which
+involved accessing API Manager Resources.
+
+For details on the API Manager REST API, please see the API Manager Console, referenced below.
+ 
+Please see the following for additional reference:
+* OAUTH2 [http://tools.ietf.org/html/draft-ietf-oauth-v2-31]
+* API Manager REST API Console [ttps://anypoint.mulesoft.com/api-platform/api/console/#]
 
 
 Requirements
