@@ -19,16 +19,20 @@ Building
 --------
 To build the simple project and run the Test Suite, perform the following command:
 
+```
 mvn clean install
+```
 
 
 Running
 -------
 To run from command line using Maven perform the following command substituting your Credentials:
 
+```
 mvn exec:java -Dexec.mainClass="org.mulesoft.apimanager.client.APIManagerClient" \
- -Dexec.classpathScope=runtime \
- -Dexec.args="arg0 arg1"
+              -Dexec.classpathScope=runtime \
+              -Dexec.args="arg0 arg1"
+```
 
 Where: 
 * arg0 is your API Manager Account Principal
