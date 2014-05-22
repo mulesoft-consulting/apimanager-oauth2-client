@@ -6,8 +6,8 @@ JAVA Client Example of Accessing APIManager via simple HTTP Client
 A simple APIManagerClient provides simple demonstration of Authenticating and
 accessing protected API Manager Resources using Java and Apache HttpClient constructs.
 
-The intent is to provide base rudiments for these to be applied and evolved for expanded Use Cases which
-involved accessing API Manager Resources.
+The intent is to provide base rudiments and for these to be applied and evolved upon for Use Cases which
+involve accessing MuleSoft API Manager Resources.
 
 For details on the API Manager REST API, please see the API Manager Console, referenced below.
  
