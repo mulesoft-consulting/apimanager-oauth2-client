@@ -136,11 +136,13 @@ public class APIManagerClientTools implements APIManagerClientConstants {
 
 		// Build Name Value Pair Parameters for POST Request.
 		List<NameValuePair> nvps = new ArrayList<NameValuePair>();
-		nvps.add(new BasicNameValuePair("grant_type", "client_credentials"));
+		nvps.add(new BasicNameValuePair("grant_type", "password"));
 		nvps.add(new BasicNameValuePair("client_id", "CONSOLE"));
-		nvps.add(new BasicNameValuePair("scope", API_MANAGER_SCOPES));
 		nvps.add(new BasicNameValuePair("response_type", "token"));
 		nvps.add(new BasicNameValuePair("redirect_uri", REDIRECT_URI));
+		
+		// Set Scopes Accordingly.
+		nvps.add(new BasicNameValuePair("scope", API_MANAGER_SCOPES));
 
 		// Add the Basic Authentication for API Manager Principal and
 		// Credentials.
